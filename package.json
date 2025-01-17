@@ -1,0 +1,33 @@
+{
+  "name": "micro-frotendf",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-hot-toast": "^2.5.1",
+    "react-router-dom": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.3.9"
+  },
+  "main": "index.js",
+  "repository": "https://gitlab.com/SipremCol_/siprem-frontend-tracker-sgo",
+  "author": "Andrus1217 <acaldup@gmail.com>",
+  "license": "MIT"
+}
